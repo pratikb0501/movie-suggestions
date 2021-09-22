@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import MovieDisplay from './components/MovieDisplay'
+import Footer from './components/Footer';
 
 const movieObject = {
   Action: [
@@ -107,6 +108,7 @@ function App() {
           }
         </div>
         <MovieDisplay movieList={movieList} />
+        <Footer />
       </div>
     </div>
   );
